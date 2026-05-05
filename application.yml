@@ -4,8 +4,19 @@ server:
 lavalink:
   server:
     password: "youshallnotpass"
-    sources:
-      youtube: true
-      soundcloud: true
 
 plugins: []
+
+metrics:
+  prometheus:
+    enabled: false
+
+sentry:
+  dsn: ""
+
+logging:
+  level:
+    root: INFO
+
+server:
+  address: 0.0.0.0
