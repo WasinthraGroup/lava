@@ -1,22 +1,9 @@
 server:
   port: ${PORT}
+  address: 0.0.0.0
 
 lavalink:
   server:
     password: "youshallnotpass"
 
 plugins: []
-
-metrics:
-  prometheus:
-    enabled: false
-
-sentry:
-  dsn: ""
-
-logging:
-  level:
-    root: INFO
-
-server:
-  address: 0.0.0.0
